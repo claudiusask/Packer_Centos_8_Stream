@@ -1,5 +1,6 @@
 # Cache objects
-packer_cache/
+**/packer_cache/*
+*.pkvars.hcl
 
 # Crash log
 crash.log
