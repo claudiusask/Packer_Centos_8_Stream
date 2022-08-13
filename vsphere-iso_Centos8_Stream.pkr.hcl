@@ -8,7 +8,7 @@ source "vsphere-iso" "centos8stream" {
   convert_to_template = true
   insecure_connection = true
 
-  vm_name       = "Centos8Stream"
+  vm_name       = "Centos8Cloud"
   guest_os_type = "centos8_64Guest"
 
   ssh_username = var.ssh_username

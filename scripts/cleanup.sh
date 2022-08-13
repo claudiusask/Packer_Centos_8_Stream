@@ -7,3 +7,6 @@ touch /etc/machine-id
 
 echo "==> Removing temporary files used to build box"
 rm -rf /tmp/*
+
+echo "==> resetting cloud-init"
+cloud-init clean
